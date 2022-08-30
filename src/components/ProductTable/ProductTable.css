@@ -1,0 +1,12 @@
+.table {
+  border: 1px dotted;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  padding: 5px;
+}
+
+.cell, .column {
+  border: 1px dotted;
+  padding: 10px;
+}
